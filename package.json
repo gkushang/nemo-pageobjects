@@ -1,0 +1,32 @@
+{
+  "name": "nemo-pageobjects",
+  "version": "0.0.1",
+  "description": "page objects for nemo.js",
+  "main": "index.js",
+  "author": {
+    "name": "kushang gajjar",
+    "email": "g.kushang@gmail.com"
+  },
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gkushang/nemo-pageobjects.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gkushang/nemo-pageobjects/issues"
+  },
+  "keywords": [
+    "pageobjects",
+    "pages",
+    "nemo",
+    "page factory"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "kushang",
+      "email": "g.kushang@gmail.com"
+    }
+  ]
+}
