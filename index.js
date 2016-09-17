@@ -3,14 +3,19 @@
 var page = require('./lib/page');
 var Path = require('path');
 
-function nemoPage(world) {
+function nemoPage(options) {
+
+  var nemo = options.nemo;
+  var baseDir = options.baseDir;
+
   function attachToNamespace() {
-    world.nemo.page = world.nemo.page[0];
-    return world.nemo.page;
+    nemo.page = nemo.page[0];
+    return nemo.page;
   }
 
-  var pageDirectory = Path.join(process.cwd() + world.nemo._config.get('baseDir') + 'pages');
-  return page(pageDirectory, world)
+  var pageDirectory = Path.join(process.cwd(), baseDir, 'pages');
+
+  return page(pageDirectory, options.nemo)
       .then(attachToNamespace);
 }
 
