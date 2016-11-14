@@ -2,13 +2,13 @@
   page objects for nemo.js
 
 
-#### nemoPage
+### nemoPage
 Initializes the Page Objects automatically and attaches pages to the `nemo.page` namespace. You do not need to instantiate the pages in your suite.
 
 
-#### Setup
+### Setup
 
-<p>1. Install</p> 
+<p><strong>1. Install </strong></p> 
 
 ```
     
@@ -16,7 +16,7 @@ Initializes the Page Objects automatically and attaches pages to the `nemo.page`
     
 ```
 
-<p>2. Add to your suite</p> 
+<p><strong>2. Add to your suite </strong></p> 
 
 Add the NemoPage to your Before hook right after Nemo is launched or add as a part of Nemo callback as shown below,
 
@@ -33,7 +33,7 @@ Add the NemoPage to your Before hook right after Nemo is launched or add as a pa
 
 ```
 
-<p>3. Access your pages</p> 
+<p><strong>3. Access your pages in your suite </strong></p> 
 
 ```
     nemo.page.{pageName}, e.g. nemo.page.loginPage
