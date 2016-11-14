@@ -1,6 +1,6 @@
 {
   "name": "nemo-pageobjects",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "page objects for nemo.js",
   "main": "index.js",
   "author": {
