@@ -8,7 +8,7 @@ Initializes the Page Objects automatically and attaches pages to the `nemo.page`
 
 #### Setup
 
-1. Install
+<p>1. Install</p> 
 
 ```
     
@@ -16,7 +16,7 @@ Initializes the Page Objects automatically and attaches pages to the `nemo.page`
     
 ```
 
-1. Add to your suite
+<p>2. Add to your suite</p> 
 
 Add the NemoPage to your Before hook right after Nemo is launched or add as a part of Nemo callback as shown below,
 
@@ -33,7 +33,7 @@ Add the NemoPage to your Before hook right after Nemo is launched or add as a pa
 
 ```
 
-1. Access your pages
+<p>3. Access your pages</p> 
 
 ```
     nemo.page.{pageName}, e.g. nemo.page.loginPage
