@@ -3,6 +3,15 @@
 var page = require('./lib/page');
 var Path = require('path');
 
+/*
+
+  var options = {
+    nemo: nemo,
+    baseDir: baseDir // path to your tests directory
+  }
+
+ */
+
 function nemoPage(options) {
 
   var nemo = options.nemo;
